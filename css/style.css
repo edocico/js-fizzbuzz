@@ -7,3 +7,34 @@
 .app {
     height: 100vh;
 }
+
+.app-main {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    gap: 15px;
+}
+
+.box-red {
+    background-color: #F0466F;
+    height: 50px;
+    width: 50px;
+}
+
+.box-green {
+    background-color: #0FD6A1;
+    height: 50px;
+    width: 50px;
+}
+
+.box-yellow {
+    background-color: #FFD167;
+    height: 50px;
+    width: 50px;
+}
+
+.box-blu {
+    background-color: #1189B2;
+    height: 50px;
+    width: 50px;
+}
