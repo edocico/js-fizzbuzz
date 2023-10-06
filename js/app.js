@@ -1,10 +1,12 @@
 console.log('hello world')
 
+//recupero elementi dal DOM
 const griDOMElement = document.querySelector('.app-main')
 console.dir(griDOMElement)
 
 const startDOMElement = document.getElementById('start-btn')
 
+// event listner
 startDOMElement.addEventListener('click', function(){
 
     for (let i = 0; i < 100; i++) {
