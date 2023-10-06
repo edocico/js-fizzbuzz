@@ -6,6 +6,24 @@
 
 .app {
     height: 100vh;
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+
+.buttons {
+    padding: 20px 40px;
+    border-bottom: 1px solid white;
+}
+
+.app-header {
+    margin-bottom: 20px;
+    border-bottom: 1px solid white;
+    
 }
 
 .app-main {
@@ -14,28 +32,41 @@
     display: flex;
     gap: 15px;
     flex-wrap: wrap;
+    padding-top: 20px;
 }
 
 .box-red {
     background-color: #F0466F;
-    height: 50px;
-    width: 50px;
+    height: 65px;
+    width: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .box-green {
     background-color: #0FD6A1;
-    height: 50px;
-    width: 50px;
+    height: 65px;
+    width: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .box-yellow {
     background-color: #FFD167;
-    height: 50px;
-    width: 50px;
+    height: 65px;
+    width: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .box-blu {
     background-color: #1189B2;
-    height: 50px;
-    width: 50px;
+    height: 65px;
+    width: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
